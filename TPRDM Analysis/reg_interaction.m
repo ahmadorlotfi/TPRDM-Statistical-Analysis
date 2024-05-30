@@ -1,4 +1,6 @@
-add = 'C:\PDM\Data\TPRDM\4\';
+% the regression that test the interacton of pulses
+
+add = '';
 
 index
 

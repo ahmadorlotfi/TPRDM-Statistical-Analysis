@@ -1,4 +1,14 @@
 function [perf_all,perf_single,single_coh_set,Coherency] = All_Data (add)
+% this function calculates the performance (accuracy) of a participant in
+% the experiment.
+% input (add) must be address of the data file
+% output1: perf_all is the performance of the participant in all trial
+% types
+%output2: perf_single is the performance of the participant in single-pulse
+%trials and will be used in pyschometric function and calculating perfect
+%integrator
+% output3: single_coh_set is the coherency of single pulse trials
+% output4: Coherency is defined here to be usued in drawing figures
 
 index
 

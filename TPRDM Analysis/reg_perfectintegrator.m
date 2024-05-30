@@ -1,10 +1,15 @@
-% based on single pulse accuracy drivred  from psychometric function
-
 function [p_e_3232, p_e_6464, p_e_128128, p_e_3264, p_e_32128, p_e_64128, p_e_323232, p_e_646464, ...
     p_e_128128128, p_e_323264, p_e_3232128, p_e_646432, p_e_6464128,p_e_12812832, ...
     p_e_12812864, p_e_3264128] = reg_perfectintegrator (add)
 
-%add = ''
+% this function calculates the expected performance (accuracy) of the
+% participant if he/she is a perfect-integrator of informations
+% the function is calculated based on performance of the participant in
+% single-pulse trials from psychimentric function
+% input (add) must be address of the data file
+% outputs are the expected performance of the participant. for example
+% p_e_3232 is the expected performance of the partiipants in douple-pulses
+%trials that the coherency of both pulses is %3.2
 
 index
 [five_points] = Psychometric (add);

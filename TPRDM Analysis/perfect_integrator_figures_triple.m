@@ -1,6 +1,9 @@
+%drawing related figures based on perfect integrator for triple-pulses
+%trials
+
 %equal triple-pulses
 
-add= 'C:\PDM\Data\TPRDM\All\';
+add= '';
 
 [five_points] = Psychometric (add);
 

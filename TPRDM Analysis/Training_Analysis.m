@@ -1,7 +1,21 @@
 function [data_bar_ac,Coherency1,data_bar_rt,Coherency2,Rt_Coh_0,Rt_Tot,Ac_Tot] = Training_Analysis (add,Sub_Num)
+% this function shows the performance of the participant in the training
+% phase, making the experimenter sure to ask the participant to the main
+% experiment
+% input1: add must be address of the data file
+% input2: the number dedicated to the participant before the training phase
+% output1: [total accuracy, accuracy in trials with %3.2, %6.4, %12.8,
+% %25.6, and %52.2% recpectively]
+% output2: labels of the output1
+% output3: [reaction-time in trials with zero coherency, reaction-time in
+% all trials]
+% output4: labels of the output3
+% output5: reaction-time in trials with zero coherency
+% output6: reaction-time in all trials
+% output7: accuracy in all trials
 
-%add = ''
-fname = dir([add '*.mat'])
+
+fname = dir([add '*.mat']);
 D=[];
 Data.coh=[];
 

@@ -1,3 +1,6 @@
+%drawing related figures based on perfect integrator for double-pulses
+%trials
+
 %equal double-pulses
 
 add= '';

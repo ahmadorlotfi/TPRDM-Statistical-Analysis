@@ -1,5 +1,10 @@
 function [five_points] = Psychometric (add)
-%add = 'C:\PDM\Data\Second phase\Data\Amir M\';
+% psychometric function is to check the performance of the participant in
+% single-pulse trials to see if the performance is as expected
+%input (add) must be address of the data file
+% output1: five_points is the performance of the participant in
+% single-pulse trials of 5 differenc coherencies (low to high coherencies)
+
 
 index
 

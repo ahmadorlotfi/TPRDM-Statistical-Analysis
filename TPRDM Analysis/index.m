@@ -1,3 +1,4 @@
+% calculating the index for all types of trials in the experiment
 
 fname = dir([add '*.mat']);
 D=[];
